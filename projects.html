@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects | ROAA</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html"><div class="brand-mark"></div><div><h1>ROAA</h1><small data-i18n="hero_role">...</small></div></a>
+    <nav class="menu">
+      <a data-nav href="index.html" data-i18n="nav_home">Home</a>
+      <a data-nav href="career.html" data-i18n="nav_career">Career Journey</a>
+      <a data-nav href="expertise.html" data-i18n="nav_expertise">Technical Expertise</a>
+      <a data-nav href="projects.html" data-i18n="nav_projects">Projects</a>
+      <a data-nav href="contact.html" data-i18n="nav_contact">Contact</a>
+    </nav>
+    <div class="actions">
+      <button class="btn" id="langBtn">AR</button>
+      <a class="btn primary" href="contact.html" data-i18n="nav_contact">Contact</a>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="card pad reveal">
+      <h2 data-i18n="projects_title">Projects</h2>
+      <p class="lead" data-i18n="projects_lead">Project pages with scope...</p>
+    </div>
+
+    <div class="grid" style="margin-top:14px;">
+      <a class="tile col-6 reveal" href="projectCresent.html">
+        <h3 data-i18n="proj_cresent">CRESENT Platform</h3>
+        <p>Healthcare portal + inquiry forms + institutional UI.</p>
+        <div class="meta"><span class="badge" data-i18n="open_project">Open project page</span></div>
+      </a>
+
+      <a class="tile col-6 reveal" href="projectFamily.html">
+        <h3 data-i18n="proj_family">Family Management Platform</h3>
+        <p>Dashboard modules, CRUD planning, and navigation structure.</p>
+        <div class="meta"><span class="badge" data-i18n="open_project">Open project page</span></div>
+      </a>
+
+      <a class="tile col-6 reveal" href="projectSmartcat.html">
+        <h3 data-i18n="proj_smart">Smartcat Website</h3>
+        <p>Branding, services structure, and corporate website layout.</p>
+        <div class="meta"><span class="badge" data-i18n="open_project">Open project page</span></div>
+      </a>
+
+      <a class="tile col-6 reveal" href="projectGithub.html">
+        <h3 data-i18n="proj_github">GitHub Guide</h3>
+        <p>Documentation + version control steps for deployment.</p>
+        <div class="meta"><span class="badge" data-i18n="open_project">Open project page</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container foot">
+    <small data-i18n="footer_note">Built by ROAA • Ready for GitHub Pages</small>
+    <small>© <span id="y"></span> ROAA</small>
+  </div>
+</footer>
+
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+<script src="assets/i18n.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

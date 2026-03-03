@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Career Journey | ROAA</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">
+      <div class="brand-mark"></div>
+      <div><h1>ROAA</h1><small data-i18n="hero_role">...</small></div>
+    </a>
+    <nav class="menu">
+      <a data-nav href="index.html" data-i18n="nav_home">Home</a>
+      <a data-nav href="career.html" data-i18n="nav_career">Career Journey</a>
+      <a data-nav href="expertise.html" data-i18n="nav_expertise">Technical Expertise</a>
+      <a data-nav href="projects.html" data-i18n="nav_projects">Projects</a>
+      <a data-nav href="contact.html" data-i18n="nav_contact">Contact</a>
+    </nav>
+    <div class="actions">
+      <button class="btn" id="langBtn">AR</button>
+      <a class="btn primary" href="expertise.html" data-i18n="go_expertise">Go to Technical Expertise</a>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="card pad reveal">
+      <h2 data-i18n="career_title">Career Journey</h2>
+      <p class="lead" data-i18n="career_lead">A clear timeline...</p>
+    </div>
+
+    <div class="timeline">
+      <div class="step left reveal">
+        <span class="dot"></span>
+        <div class="tile">
+          <h3 data-i18n="phase_1">Early Foundation</h3>
+          <p data-i18n="phase_1_desc">HTML/CSS/JS ...</p>
+          <div class="meta"><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">JS</span></div>
+        </div>
+      </div>
+
+      <div class="step right reveal">
+        <span class="dot"></span>
+        <div class="tile">
+          <h3 data-i18n="phase_2">Family Management Platform</h3>
+          <p data-i18n="phase_2_desc">Dashboard UX...</p>
+          <div class="meta"><span class="badge">Dashboard</span><span class="badge">Modules</span><span class="badge">CRUD</span></div>
+        </div>
+      </div>
+
+      <div class="step left reveal">
+        <span class="dot"></span>
+        <div class="tile">
+          <h3 data-i18n="phase_3">CRESENT Healthcare Platform</h3>
+          <p data-i18n="phase_3_desc">Institutional UI...</p>
+          <div class="meta"><span class="badge">Healthcare</span><span class="badge">Forms</span><span class="badge">Portal</span></div>
+        </div>
+      </div>
+
+      <div class="step right reveal">
+        <span class="dot"></span>
+        <div class="tile">
+          <h3 data-i18n="phase_4">Smartcat Corporate Website</h3>
+          <p data-i18n="phase_4_desc">Branding...</p>
+          <div class="meta"><span class="badge">Brand</span><span class="badge">Services</span><span class="badge">UX</span></div>
+        </div>
+      </div>
+
+      <div class="step left reveal">
+        <span class="dot"></span>
+        <div class="tile">
+          <h3 data-i18n="phase_5">GitHub & Documentation</h3>
+          <p data-i18n="phase_5_desc">Version control...</p>
+          <div class="meta"><span class="badge">Git</span><span class="badge">Docs</span><span class="badge">Deploy</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top:22px;" class="reveal">
+      <a class="btn primary" href="projects.html" data-i18n="nav_projects">Projects</a>
+      <a class="btn" href="expertise.html" data-i18n="go_expertise">Go to Technical Expertise</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container foot">
+    <small data-i18n="footer_note">Built by ROAA • Ready for GitHub Pages</small>
+    <small>© <span id="y"></span> ROAA</small>
+  </div>
+</footer>
+
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+<script src="assets/i18n.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

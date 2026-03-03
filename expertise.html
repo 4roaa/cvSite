@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Technical Expertise | ROAA</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">
+      <div class="brand-mark"></div>
+      <div><h1>ROAA</h1><small data-i18n="hero_role">...</small></div>
+    </a>
+    <nav class="menu">
+      <a data-nav href="index.html" data-i18n="nav_home">Home</a>
+      <a data-nav href="career.html" data-i18n="nav_career">Career Journey</a>
+      <a data-nav href="expertise.html" data-i18n="nav_expertise">Technical Expertise</a>
+      <a data-nav href="projects.html" data-i18n="nav_projects">Projects</a>
+      <a data-nav href="contact.html" data-i18n="nav_contact">Contact</a>
+    </nav>
+    <div class="actions">
+      <button class="btn" id="langBtn">AR</button>
+      <a class="btn primary" href="projects.html" data-i18n="nav_projects">Projects</a>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="card pad reveal">
+      <h2 data-i18n="exp_title">Technical Expertise</h2>
+      <p class="lead" data-i18n="exp_lead">A structured view...</p>
+    </div>
+
+    <div class="grid" style="margin-top:14px;">
+      <div class="tile col-6 reveal">
+        <h3 data-i18n="exp_front">Frontend Development</h3>
+        <p data-i18n="exp_front_list">HTML5 • CSS3 • JavaScript ...</p>
+        <div class="meta"><span class="badge">UI</span><span class="badge">Responsive</span></div>
+      </div>
+
+      <div class="tile col-6 reveal">
+        <h3 data-i18n="exp_back">Backend Development</h3>
+        <p data-i18n="exp_back_list">ASP.NET Web Forms • C# ...</p>
+        <div class="meta"><span class="badge">C#</span><span class="badge">SQL</span></div>
+      </div>
+
+      <div class="tile col-6 reveal">
+        <h3 data-i18n="exp_arch">Architecture & Design</h3>
+        <p data-i18n="exp_arch_list">ERD • Role-based access ...</p>
+        <div class="meta"><span class="badge">ERD</span><span class="badge">Workflows</span></div>
+      </div>
+
+      <div class="tile col-6 reveal">
+        <h3 data-i18n="exp_prof">Professional Skills</h3>
+        <p data-i18n="exp_prof_list">Project coordination • Reporting ...</p>
+        <div class="meta"><span class="badge">BRD</span><span class="badge">Reports</span></div>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top:22px;" class="reveal">
+      <a class="btn" href="career.html" data-i18n="back_career">Back to Career Journey</a>
+      <a class="btn primary" href="projects.html" data-i18n="nav_projects">Projects</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container foot">
+    <small data-i18n="footer_note">Built by ROAA • Ready for GitHub Pages</small>
+    <small>© <span id="y"></span> ROAA</small>
+  </div>
+</footer>
+
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+<script src="assets/i18n.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
